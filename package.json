@@ -1,0 +1,55 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "prettier": "prettier --write --ignore-unknown .",
+    "prettier:check": "prettier --check --ignore-unknown .",
+    "start": "next start",
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "seedE": "node -r dotenv/config ./scripts/seedElephant.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@material-tailwind/react": "^2.1.8",
+    "@tailwindcss/forms": "^0.5.7",
+    "@types/node": "20.5.7",
+    "@vercel/postgres": "^0.5.1",
+    "autoprefixer": "10.4.15",
+    "babel": "^6.23.0",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.0.0",
+    "next": "^14.0.2",
+    "next-auth": "^5.0.0-beta.5",
+    "next-qrcode": "^2.5.1",
+    "pg": "^8.11.3",
+    "postcss": "8.4.31",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-icons": "^5.0.1",
+    "react-qr-code": "^2.0.12",
+    "react-to-print": "^2.14.15",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "use-debounce": "^10.0.0",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.14",
+    "@vercel/style-guide": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.52.0",
+    "eslint-config-next": "^14.0.0",
+    "eslint-config-prettier": "9.0.0",
+    "html5-qrcode": "^2.3.8",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "0.5.4"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
